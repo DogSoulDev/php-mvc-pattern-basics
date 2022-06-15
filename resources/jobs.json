@@ -1,0 +1,31 @@
+[{
+    "jobId": 1,
+    "name": "Programmer",
+    "type": "Indoor"
+},
+{
+    "jobId": 2,
+    "name": "Archaeologist",
+    "type": "Outdoor"
+},
+{
+    "jobId": 3,
+    "name": "Chef",
+    "type": "Indoor"
+},
+{
+    "jobId": 4,
+    "name": "FIsherman",
+    "type": "Outdoor"
+},
+{
+    "jobId": 5,
+    "name": "Nurse",
+    "type": "Indoor"
+},
+{
+    "jobId": 6,
+    "name": "Truck driver",
+    "type": "Outdoor"
+}
+]
