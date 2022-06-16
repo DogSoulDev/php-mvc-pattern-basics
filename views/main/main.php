@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>Pattern MVC</title>
     <link rel="stylesheet" href="../../assets/css/normalize.css">
     <link rel="stylesheet" href="../../assets/css/style.css.css">
     <script src="../../assets/js/script.js" type="module"></script>
@@ -12,12 +12,10 @@
 </head>
 
 <body>
-    <h1>Welcome to MVC Pattern Basics!</h1>
+    <h1>Employee Manager MVC</h1>
     <div class="list-group">
-        <a class="list-group-item list-group-item-action" href="?controller=employee&action=getAllEmployees">Employee
-            Controller</a>
-        <a class="list-group-item list-group-item-action" href="?controller=hobbie&action=getAllHobbies">Hobbie
-            Controller</a>
+        <a class="list-group-item list-group-item-action" href="?controller=employee&action=getAllEmployees">Employee</a>
+        <a class="list-group-item list-group-item-action" href="?controller=hobbie&action=getAllHobbies">Hobbie</a>
 </body>
 
 </html>

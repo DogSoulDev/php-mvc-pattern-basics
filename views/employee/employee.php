@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="../../assets/css/style.css.css">
     <script src="../../assets/js/script.js" type="module"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <title>Document</title>
+    <title>Employee Index</title>
 </head>
 
 <body>
     <div class="containter">
-        <h1>Employee's page!</h1>
+        <h1>Employee Manager</h1>
         </br>
 
         <?php

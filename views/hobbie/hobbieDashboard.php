@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="../../assets/css/normalize.css">
     <link rel="stylesheet" href="../../assets/css/style.css.css">
     <script src="../../assets/js/script.js" type="module"></script>
-    <title>Document</title>
+    <title>Hobbie Dashboard</title>
 
 </head>
 
 <body>
-    <h1>Hobbie Dashboard page!</h1>
+    <h1>Hobbie Dashboard</h1>
     <style type="text/css">
 
     </style>

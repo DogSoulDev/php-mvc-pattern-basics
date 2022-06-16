@@ -9,7 +9,7 @@ if (isset($_GET['controller'])) {
     if ($fileExists) {
         require_once $controller;
     } else {
-        $errorMsg = "The page you are trying to access does not exist.";
+        $errorMsg = "Error 404";
         require_once VIEWS . "error/error.php";
     }
 } else {

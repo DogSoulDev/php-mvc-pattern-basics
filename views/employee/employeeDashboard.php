@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="../../assets/css/style.css.css">
     <script src="../../assets/js/script.js" type="module"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <title>Document</title>
+    <title>Employee Dashboard</title>
 </head>
 
 <body>
-    <h1>Employee Dashboard page!</h1>
+    <h1>Employee Dashboard</h1>
     <style type="text/css">
 
     </style>
