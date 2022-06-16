@@ -1,6 +1,6 @@
 <?php
 
-require_once MODELS . "jobModel.php";
+require_once MODELS . "jobsModel.php";
 
 $action = "";
 
@@ -20,7 +20,7 @@ function getAllJobs()
 {
     $jobs = get();
     if (isset($jobs)) {
-        require_once VIEWS . "/hobbie/jobsDashboard.php";
+        require_once VIEWS . "/jobs/jobsDashboard.php";
     }
 }
 

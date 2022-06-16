@@ -4,13 +4,12 @@ require_once("helper/dbConnection.php");
 
 function get()
 {
-    $query = conn()->prepare("SELECT id, name, type
-    FROM jobs;");
+    $query = conn()->prepare("SELECT id, name, type FROM hobbies;");
 
     try {
         $query->execute();
-        $jobs = $query->fetchAll();
-        return $jobs;
+        $hobbies = $query->fetchAll();
+        return $hobbies;
     } catch (PDOException $e) {
         return [];
     }
@@ -19,7 +18,7 @@ function get()
 function getById($id)
 {
     $query = conn()->prepare("SELECT id, name, type
-    FROM jobs
+    FROM hobbies
     WHERE id = $id;");
 
     try {
@@ -33,7 +32,7 @@ function getById($id)
 
 function create($job)
 {
-    $query = conn()->prepare("INSERT INTO jobs (name, type)
+    $query = conn()->prepare("INSERT INTO hobbies (name, type)
     VALUES
     (?, ?);");
 
@@ -51,7 +50,7 @@ function create($job)
 function update($job)
 {
     echo "update model";
-    $query = conn()->prepare("UPDATE jobs
+    $query = conn()->prepare("UPDATE hobbies
     SET name = ?, type = ?
     WHERE id = ?;");
 
@@ -69,7 +68,7 @@ function update($job)
 
 function delete($id)
 {
-    $query = conn()->prepare("DELETE FROM jobs WHERE id = ?");
+    $query = conn()->prepare("DELETE FROM hobbies WHERE id = ?");
     $query->bindParam(1, $id);
 
     try {
