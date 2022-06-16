@@ -25,7 +25,7 @@ postal_code INT(5),
 FOREIGN KEY (gender_id) REFERENCES genders(id) 
 );
 
-CREATE TABLE jobs(
+CREATE TABLE hobbies(
 id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 name VARCHAR(50) NOT NULL,
 type ENUM("Indoor", "Outdoor")

@@ -4,7 +4,8 @@ require_once("helper/dbConnection.php");
 
 function get()
 {
-    $query = conn()->prepare("SELECT id, name, type FROM hobbies;");
+    $query = conn()->prepare("SELECT id, name, type
+    FROM hobbies;");
 
     try {
         $query->execute();
@@ -23,21 +24,21 @@ function getById($id)
 
     try {
         $query->execute();
-        $job = $query->fetch();
-        return $job;
+        $hobbie = $query->fetch();
+        return $hobbie;
     } catch (PDOException $e) {
         return [];
     }
 }
 
-function create($job)
+function create($hobbie)
 {
     $query = conn()->prepare("INSERT INTO hobbies (name, type)
     VALUES
     (?, ?);");
 
-    $query->bindParam(1, $job["name"]);
-    $query->bindParam(2, $job["type"]);
+    $query->bindParam(1, $hobbie["name"]);
+    $query->bindParam(2, $hobbie["type"]);
 
     try {
         $query->execute();
@@ -47,16 +48,16 @@ function create($job)
     }
 }
 
-function update($job)
+function update($hobbie)
 {
     echo "update model";
     $query = conn()->prepare("UPDATE hobbies
     SET name = ?, type = ?
     WHERE id = ?;");
 
-    $query->bindParam(1, $job["name"]);
-    $query->bindParam(2, $job["type"]);
-    $query->bindParam(3, $job["id"]);
+    $query->bindParam(1, $hobbie["name"]);
+    $query->bindParam(2, $hobbie["type"]);
+    $query->bindParam(3, $hobbie["id"]);
 
     try {
         $query->execute();

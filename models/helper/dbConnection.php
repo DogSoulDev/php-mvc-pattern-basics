@@ -19,4 +19,3 @@ function conn()
         require_once(VIEWS . "/error/error.php");
     }
 }
-?>

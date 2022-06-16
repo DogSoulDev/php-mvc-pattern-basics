@@ -3,16 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../../assets/css/style.css">
-    <link rel="stylesheet" href="../../assets/css/normalize.css.css">
-    <script src="../../assets/js/script.js" type="module"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <title>Employee Dash</title>
 </head>
 
 <body>
-    <h1>Employee Dashboard</h1>
+    <h1>Employee Dashboard page!</h1>
     <style type="text/css">
 
     </style>

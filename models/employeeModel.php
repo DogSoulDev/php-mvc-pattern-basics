@@ -96,4 +96,3 @@ function delete($id)
         return [false, $e];
     }
 }
-?>
