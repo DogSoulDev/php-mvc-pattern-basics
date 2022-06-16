@@ -14,7 +14,9 @@
 
 <body>
     <?php
-    echo "<h1>". $errorMsg ."</h1>";
+
+    echo "<h1 class="error">". $errorMsg ."</h1>";
+
     ?>
 </body>
 
