@@ -1,4 +1,4 @@
-Intro:
+Intro:   http://localhost/php-mvc-pattern-basics/
 
 ## Table of Contents
 
@@ -17,9 +17,8 @@ Intro:
 First of all, you will need to clone this repo:
 
 ```bash
-$ git clone https://github.com/assembler-school/repository-name
-or
-https://github.com/DogSoulDev/php-mvc-pattern-basics
+$ git clone https://github.com/DogSoulDev/php-mvc-pattern-basics
+or https://github.com/assembler-school/repository-name
 ```
 
 ## Dependencies
