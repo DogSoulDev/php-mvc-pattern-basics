@@ -27,7 +27,7 @@
             </tr>
         </thead>
         <tbody>
-            
+
             <?php
             foreach ($jobs as $index => $job) {
                 echo "<tr>";
